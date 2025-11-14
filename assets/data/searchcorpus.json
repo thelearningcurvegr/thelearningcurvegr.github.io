@@ -1,0 +1,52 @@
+[ 
+ 
+{ 
+"title"    : "Your Complete Guide to CV preparation", 
+"desc"     : "Your Complete Guide to CV preparation", 
+"category" : "CV, Emplyability", 
+"url"      : "/2025-11-11-Your-Complete-Guide-to-CV-preparation/", 
+"date"     : "November 11, 2025" 
+}, 
+ 
+{ 
+"title"    : "Sample blog post to learn markdown tips", 
+"desc"     : "Sample blog post to learn markdown tips", 
+"category" : "test", 
+"url"      : "/2020-02-28-sample-markdown/", 
+"date"     : "February 28, 2020" 
+}, 
+ 
+ 
+{ 
+"title"    : "About tlc_", 
+"desc"     : "About tlc_", 
+"category" : "page", 
+"url"      : "/about/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "The Learning Curve", 
+"desc"     : "The Learning Curve", 
+"category" : "page", 
+"url"      : "/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "", 
+"desc"     : "", 
+"category" : "page", 
+"url"      : "/posts/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Tag Index", 
+"desc"     : "Tag Index", 
+"category" : "page", 
+"url"      : "/tags/", 
+"date"     : "January 1, 1970" 
+} 
+ 
+]
