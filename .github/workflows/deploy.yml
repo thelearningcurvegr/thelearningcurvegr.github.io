@@ -12,14 +12,16 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
-      - name: Set up Ruby
+      - name: Set up Ruby (3.2)
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # change if your project needs a different Ruby version
+          ruby-version: '3.2' # use Ruby >= 3.2 so bundler 2.7.x can be installed
+
+      - name: Install Bundler that matches Gemfile.lock
+        run: gem install bundler -v 2.7.2
 
       - name: Install dependencies
         run: |
-          gem install bundler
           bundle config set --local deployment 'true' || true
           bundle install --jobs 4 --retry 3
 
