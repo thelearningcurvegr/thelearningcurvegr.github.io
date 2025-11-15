@@ -1,9 +1,25 @@
 [ 
  
 { 
+"title"    : "The New Currency of Your Career", 
+"desc"     : "The New Currency of Your Career", 
+"category" : "Employability", 
+"url"      : "/2025-11-15-Micro-credentials-employability/", 
+"date"     : "November 15, 2025" 
+}, 
+ 
+{ 
+"title"    : "Interview Preparation", 
+"desc"     : "Interview Preparation", 
+"category" : "Interview, Employability", 
+"url"      : "/2025-11-15-Interview-preparation/", 
+"date"     : "November 15, 2025" 
+}, 
+ 
+{ 
 "title"    : "Your Complete Guide to CV preparation", 
 "desc"     : "Your Complete Guide to CV preparation", 
-"category" : "CV, Emplyability", 
+"category" : "CV, Employability", 
 "url"      : "/2025-11-11-Your-Complete-Guide-to-CV-preparation/", 
 "date"     : "November 11, 2025" 
 }, 
