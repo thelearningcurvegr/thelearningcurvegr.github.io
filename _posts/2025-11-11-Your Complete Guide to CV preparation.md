@@ -3,12 +3,11 @@ layout: post
 title: Your Complete Guide to CV preparation 
 # subtitle: Excerpt from Soulshaping by Jeff Brown
 # cover-img: /assets/img/posts/post_251111.png
-cover-img: /assets/img/posts/post_251111b.jpeg
-# thumbnail-img: /assets/img/posts/post_251111b.jpeg
+# cover-img: /assets/img/posts/post_251111b.jpeg
+thumbnail-img: /assets/img/posts/post_251111b.jpeg
 # share-img: /assets/img/path.jpg
 tags: [CV, Employability]
 author: tlc_ employability team
----
 ---
 Your CV is often your first chance to make an impression on prospective employers. This comprehensive guide will help you create a professional CV that “opens doors” to career opportunities. 
  

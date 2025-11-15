@@ -8,7 +8,6 @@ subtitle: Your Complete Guide to Success
 tags: [Interview, Employability]
 author: tlc_ employability team
 ---
-
 Interview success doesn’t happen by chance. It is the result of preparation, strategic practice, and professional follow-up. This guide will transform your interview approach from reactive to strategic, giving you the confidence you need.  
  
 ### Why is interview preparation important? 

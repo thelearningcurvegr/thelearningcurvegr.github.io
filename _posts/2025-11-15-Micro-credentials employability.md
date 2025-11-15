@@ -8,9 +8,8 @@ subtitle: Why Micro-credentials Matter
 tags: [Employability]
 author: tlc_ employability team
 ---
-
 In today’s rapidly evolving job market, staying relevant is more important than ever. Continuous learning is no longer a luxury but a necessity for career growth and security. This is where micro-credentials come in, offering a flexible and targeted way to acquire new skills and knowledge.  
- 
+
 ### The New Learning Currency 
 Micro-credentials are a record of the specific skills and knowledge you have gained through a short, focused learning experience. Think of them as mini-qualifications that prove your competency in a particular area. Unlike traditional degrees that can take years to complete, micro-credentials are designed to be completed in a much shorter timeframe, making them a flexible option for busy professionals. They are learner-owned, portable, and can even stacked together to build towards a larger credential.  
  

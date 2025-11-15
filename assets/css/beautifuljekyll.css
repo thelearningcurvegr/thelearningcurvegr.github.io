@@ -39,6 +39,10 @@ body {
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
+  {% else %}
+  background-image: url({{ "/assets/img/bg-pattern.svg" | relative_url }});
+  background-repeat: repeat;
+  background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
   min-height: 100vh;
