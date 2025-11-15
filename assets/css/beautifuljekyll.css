@@ -54,7 +54,7 @@ p {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--header-font);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.1;
 }
 h1 {
@@ -784,7 +784,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
     padding: 9.375rem 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 5rem;
+    font-size: 4.6rem;
   }
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
