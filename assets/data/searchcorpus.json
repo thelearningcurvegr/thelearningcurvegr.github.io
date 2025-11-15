@@ -42,6 +42,14 @@
 }, 
  
 { 
+"title"    : "Employability", 
+"desc"     : "Employability", 
+"category" : "page", 
+"url"      : "/employability/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
 "title"    : "About tlc_", 
 "desc"     : "About tlc_", 
 "category" : "page", 
@@ -70,6 +78,14 @@
 "desc"     : "Tag Index", 
 "category" : "page", 
 "url"      : "/tags/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "Tech", 
+"desc"     : "Tech", 
+"category" : "page", 
+"url"      : "/tech/", 
 "date"     : "January 1, 1970" 
 } 
  
