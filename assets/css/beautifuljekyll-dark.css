@@ -1,0 +1,157 @@
+---
+layout: null
+---
+
+/* Dark theme overrides — toggled via `html[data-theme="dark"]` */
+/*
+  Reordered dark-mode overrides to follow the main CSS logical sections:
+  1) variables
+  2) general/body
+  3) post/page headers (intro header)
+  4) post previews / home-feature
+  5) code / pre
+  6) tables
+  7) notification boxes
+  8) search input
+  9) navbar/logo
+*/
+
+/* 1) CSS variables for dark theme */
+html[data-theme="dark"] {
+  /* Softer page background: lighter than pure black for reduced contrast */
+  --page-col: #2b2b2b;
+  --text-col: #cccccc;
+  --link-col: #7ab8ff;
+  --hover-col: #6897bb;
+  --navbar-col: #353535;
+  --navbar-text-col: #e6e6e6;
+  --navbar-border-col: #222528;
+  --footer-col: #353535;
+  --footer-text-col: #bdbdbd;
+  --footer-link-col: #e6e6e6;
+  --footer-hover-col: #6897bb;
+}
+
+/* 2) General / body */
+/* Remove page background pattern/image in dark mode to reduce visual noise */
+html[data-theme="dark"] body {
+
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><path d='M0 0 L20 0' stroke='%23ffffff' stroke-opacity='0.05' stroke-width='0.6'/><path d='M0 0 L0 20' stroke='%23ffffff' stroke-opacity='0.05' stroke-width='0.6'/></svg>");
+    background-repeat: repeat !important;
+    background-attachment: fixed !important;
+    background-position: 0 0 !important;
+    background-color: var(--page-col) !important;
+}
+
+/* jumbotron and other general hard-coded backgrounds */
+html[data-theme="dark"] .jumbotron {
+  background-color: rgba(20,20,20,0.6);
+}
+
+/* 3) Post/page headers */
+html[data-theme="dark"] .intro-header.big-img .page-heading,
+html[data-theme="dark"] .intro-header.big-img .post-heading {
+  color: #FFF;
+}
+
+/* 4) Post previews, home-feature and panel-like elements */
+html[data-theme="dark"] .home-feature{
+  background: #292929 !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.8) !important;
+}
+html[data-theme="dark"] .home-feature:hover,
+html[data-theme="dark"] .home-feature:focus-visible{
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6) !important;
+}
+/* html[data-theme="dark"] .home-feature h3 { color: var(--text-col) !important; } */
+html[data-theme="dark"] .home-feature p { color: #a8b0b4 !important; }
+
+html[data-theme="dark"] .post-preview{ 
+  background: transparent !important;
+  border-bottom-color: rgba(255,255,255,0.04) !important;
+}
+html[data-theme="dark"] .post-preview a { color: var(--text-col) !important; }
+
+/* Change post title link color on hover/focus in dark mode */
+html[data-theme="dark"] .post-preview a:hover .post-title,
+html[data-theme="dark"] .post-preview a:focus .post-title {
+  color: var(--hover-col) !important;
+  transition: color 160ms ease;
+}
+
+/* Ensure post titles transition smoothly when theme is toggled */
+html[data-theme="dark"] .post-title {
+  transition: color 160ms ease;
+}
+
+/* 5) Code blocks */
+html[data-theme="dark"] code {
+  color: #ffb3b3;
+  background-color: #2b2b2b;
+}
+
+html[data-theme="dark"] pre,
+html[data-theme="dark"] .highlight > pre {
+  background: #151515;
+  border-color: rgba(255,255,255,0.06);
+}
+
+/* 6) Tables */
+html[data-theme="dark"] table tr {
+  background-color: transparent !important;
+  border-top-color: rgba(255,255,255,0.04) !important;
+}
+html[data-theme="dark"] table tr:nth-child(2n) {
+  background-color: rgba(255,255,255,0.01) !important;
+}
+
+/* 7) Notification boxes */
+html[data-theme="dark"] .box-note,
+html[data-theme="dark"] .box-warning,
+html[data-theme="dark"] .box-error,
+html[data-theme="dark"] .box-success {
+  background-color: rgba(255,255,255,0.02) !important;
+  border-color: rgba(255,255,255,0.04) !important;
+  color: var(--text-col) !important;
+}
+
+/* 8) Search overlay inputs */
+html[data-theme="dark"] #nav-search-input {
+  background: #1b1f22 !important;
+  color: #e6e6e6 !important;
+  box-shadow: none !important;
+}
+
+/* 9) Navbar / logo */
+/* Lighten or invert the site logo when dark mode is active. */
+html[data-theme="dark"] .navbar-brand-logo img {
+  filter: brightness(1.6) invert(1) saturate(1.05);
+  -webkit-filter: brightness(1.6) invert(1) saturate(1.05);
+}
+
+/* Color the moon icon in the theme toggle to a warm yellow in dark mode */
+html[data-theme="dark"] #theme-toggle i.fa-moon {
+  color: #FFD166;
+  transition: color 200ms ease;
+}
+
+
+/* Lighten or invert the site logo when dark mode is active. This helps logos
+  that are dark on a light background remain visible in dark mode. */
+html[data-theme="dark"] .navbar-brand-logo img {
+  /* Prefer a subtle brighten + invert to make dark logos readable; if your
+    logo is already color-inverted for dark, this will be a no-op visually. */
+  filter: brightness(1.6) invert(1) saturate(0);
+  -webkit-filter: brightness(1.6) invert(1) saturate(0);
+}
+
+html[data-theme="dark"] .navbar-custom {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+/* If you prefer swapping to a dedicated dark-mode logo, add an attribute
+  `data-dark-src` to the <img> tag and the JS will swap src on theme change.
+  The JS swap is implemented in `assets/js/beautifuljekyll.js` initTheme/toggleTheme.
+*/

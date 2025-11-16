@@ -66,6 +66,9 @@
   {% include cloudflare_analytics.html %}
   {% include mathjax.html %}
 
+  <!-- Inline theme preloader: apply saved theme before CSS to avoid flash -->
+  <script>/*<![CDATA[*/(function(){try{var t=localStorage.getItem('site-theme');if(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();/*]]>*/</script>
+
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}

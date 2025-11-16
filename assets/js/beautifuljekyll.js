@@ -6,6 +6,8 @@ let BeautifulJekyllJS = {
   numImgs : null,
 
   init : function() {
+    // Initialize theme (before other layout calculations)
+    BeautifulJekyllJS.initTheme();
     setTimeout(BeautifulJekyllJS.initNavbar, 10);
 
     // Shorten the navbar after scrolling a little bit down
@@ -44,6 +46,47 @@ let BeautifulJekyllJS = {
     } else {
       $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
     }
+  },
+
+  initTheme: function() {
+    const key = 'site-theme';
+    let chosen = null;
+    try { chosen = localStorage.getItem(key); } catch(e) { chosen = null; }
+    if (!chosen) {
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        chosen = 'dark';
+      } else {
+        chosen = 'light';
+      }
+    }
+    if (chosen === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.setAttribute('aria-pressed', chosen === 'dark');
+      btn.setAttribute('aria-label', chosen === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+      btn.innerHTML = chosen === 'dark' ? '<i class="fa fa-moon" aria-hidden="true"></i>' : '<i class="fa fa-sun" aria-hidden="true"></i>';
+      btn.addEventListener('click', function(e){ e.preventDefault(); BeautifulJekyllJS.toggleTheme(); });
+    }
+  },
+
+  toggleTheme: function() {
+    const key = 'site-theme';
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const next = isDark ? 'light' : 'dark';
+    if (next === 'dark') document.documentElement.setAttribute('data-theme', 'dark'); else document.documentElement.removeAttribute('data-theme');
+    try { localStorage.setItem(key, next); } catch (e) {}
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+      btn.setAttribute('aria-pressed', next === 'dark');
+      btn.setAttribute('aria-label', next === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+      btn.innerHTML = next === 'dark' ? '<i class="fa fa-moon" aria-hidden="true"></i>' : '<i class="fa fa-sun" aria-hidden="true"></i>';
+    }
+    // Recompute navbar contrast now that theme changed
+    BeautifulJekyllJS.initNavbar();
   },
 
   initImgs : function() {
