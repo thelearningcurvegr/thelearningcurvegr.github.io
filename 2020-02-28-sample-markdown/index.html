@@ -51,7 +51,7 @@
 
 
   <!-- Inline theme preloader: apply saved theme before CSS to avoid flash -->
-  <script>/*<![CDATA[*/(function(){try{var t=localStorage.getItem('site-theme');if(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();/*]]>*/</script>
+  <script>/*<![CDATA[*/(function(){try{var t=localStorage.getItem('site-theme');if(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');if(!document.getElementById('theme-variables')){var s=document.createElement('style');s.id='theme-variables';if(t==='dark'){s.textContent=':root{--page-col:#2b2b2b;--text-col:#cccccc;--link-col:#7ab8ff;--hover-col:#6897bb;--navbar-col:#353535;--navbar-text-col:#e6e6e6;--navbar-border-col:#222528;--footer-col:#353535;--footer-text-col:#bdbdbd;--footer-link-col:#e6e6e6;--footer-hover-col:#6897bb;}';}else{s.textContent=':root{--page-col:#FFFFFF;--text-col:#404040;--link-col:#008AFF;--hover-col:#0085A1;--navbar-col:#EAEAEA;--navbar-text-col:#404040;--navbar-border-col:#DDDDDD;--footer-col:#EAEAEA;--footer-text-col:#777777;--footer-link-col:#404040;--footer-hover-col:#0085A1;}';}document.head.appendChild(s);} }catch(e){} })();/*]]>*/</script>
 
   
     
