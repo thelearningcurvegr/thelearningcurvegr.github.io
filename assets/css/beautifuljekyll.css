@@ -44,7 +44,8 @@ body {
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% else %}
-  background-image: url({{ "/assets/img/bg-pattern.svg" | relative_url }});
+  /* background-image: url({{ "/assets/img/bg-pattern.svg" | relative_url }}); */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><path d='M0 0 L20 0' stroke='%23aaaaaa' stroke-opacity='0.2' stroke-width='0.6'/><path d='M0 0 L0 20' stroke='%23aaaaaa' stroke-opacity='0.2' stroke-width='0.6'/></svg>");
   background-repeat: repeat;
   background-attachment: fixed;
   {% endif %}
