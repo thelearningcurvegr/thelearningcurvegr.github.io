@@ -50,6 +50,9 @@
 
 
 
+  <!-- Inline theme preloader: apply saved theme before CSS to avoid flash -->
+  <script>/*<![CDATA[*/(function(){try{var t=localStorage.getItem('site-theme');if(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)t='dark';if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();/*]]>*/</script>
+
   
     
       
@@ -79,6 +82,8 @@
       <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
     
       <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll-dark.css">
     
   
 
@@ -152,7 +157,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/posts">Blog</a>
-          </li></ul>
+          </li><li class="nav-item">
+          <button id="theme-toggle" class="nav-link btn btn-link theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark theme">
+            <i class="fa fa-sun" aria-hidden="true"></i>
+          </button>
+        </li>
+    </ul>
   </div>
 
   
