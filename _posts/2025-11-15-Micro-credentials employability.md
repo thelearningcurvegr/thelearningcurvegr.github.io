@@ -6,7 +6,7 @@ subtitle: Why Micro-credentials Matter
 # thumbnail-img: /assets/img/posts/post_251111.png
 # share-img: /assets/img/path.jpg
 tags: [Employability]
-author: tlc_ employability team
+author: Employability Team
 ---
 In today’s rapidly evolving job market, staying relevant is more important than ever. Continuous learning is no longer a luxury but a necessity for career growth and security. This is where micro-credentials come in, offering a flexible and targeted way to acquire new skills and knowledge.  
 

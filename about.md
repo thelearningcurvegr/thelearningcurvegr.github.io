@@ -5,7 +5,7 @@ title: About tlc_
 # cover-img: /assets/img/image17.jpg
 ---
 
-We are a *non-profit organisation* founded in 2025, dedicated to **Education**, **Technological Innovation**, and **Employability**.  
+We are a *non-profit organisation* dedicated to **Education**, **Technological Innovation**, and **Employability**.  
 
 ### Who we are
 We are a team of *project managers*, *event managers*, *AI engineers* based in Greece, united by a shared vision to contribute to a Europe where people live, grow, create and peacefully coexist.  

@@ -19,9 +19,30 @@ and empower individuals of all ages.
 
 <!-- Feature row: two clickable blocks under the first text -->
 <style>
-.home-feature-row{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.25rem}
-.home-feature{flex:1 1 50px;text-decoration:none;color:inherit;border:1px solid #e6e6e6;padding:1rem;border-radius:8px;display:flex;align-items:flex-start;gap:1rem;transition:box-shadow .15s ease, transform .15s ease;background:#ffffff;box-shadow:0 5px 15px rgb(200,200,200)}
-.home-feature:hover{box-shadow:0 8px 22px rgba(0,0,0,0.08);transform:translateY(-3px)}
+.home-feature-row{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.25rem;margin-bottom: 1.25rem;}
+.home-feature{flex:1 1 50px;
+	text-decoration:none;
+	color:inherit;
+	border:1px solid #e6e6e6;
+	padding:1rem;
+	border-radius:15px;
+	display:flex;
+	align-items:flex-start;
+	gap:1rem;
+	background:#ffffff;
+	/* Subtle initial shadow for consistency across browsers */
+	box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+	/* Smooth, slightly snappy hover/transform transitions */
+	transition: transform .18s cubic-bezier(.2,.7,0,1), box-shadow .28s cubic-bezier(.2,.7,0,1);
+	will-change: transform, box-shadow;
+}
+.home-feature:hover,
+.home-feature:focus-visible{
+	/* Slightly larger, softer shadow on hover/focus */
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+	transform: translateY(-2px);
+	outline: none;
+}
 .home-feature, .home-feature:hover, .home-feature:focus { text-decoration: none; }
 @media (max-width:640px){.home-feature-row{flex-direction:column}}
 </style>

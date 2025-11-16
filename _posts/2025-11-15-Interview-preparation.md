@@ -6,7 +6,7 @@ subtitle: Your Complete Guide to Success
 # thumbnail-img: /assets/img/posts/post_251111.png
 # share-img: /assets/img/path.jpg
 tags: [Interview, Employability]
-author: tlc_ employability team
+author: Employability Team
 ---
 Interview success doesn’t happen by chance. It is the result of preparation, strategic practice, and professional follow-up. This guide will transform your interview approach from reactive to strategic, giving you the confidence you need.  
  
