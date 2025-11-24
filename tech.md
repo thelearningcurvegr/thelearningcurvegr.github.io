@@ -1,6 +1,50 @@
 ---
 layout: page
-title: Tech
-# subtitle: Why you'd want to go on a date with me
+title: Tech & Innovation Lab
+subtitle: Advanced Engineering for Social Impact.
 # cover-img: /assets/img/image17.jpg
 ---
+
+We are the technical arm of TLC! While many talk about the future of AI, we are busy building it. Our team comes from a background in AI engineering and cloud infrastructure. We don’t just run seminars; we write code, deploy systems, and build tools that modernize how adult education actually happens.
+
+> We exist to help educators and professionals stop fearing AI and start using it to save time and improve their work.
+
+---
+
+## What We Build
+
+### Interactive Knowledge Assistants (RAG)
+**The Challenge:**
+Your organization has years of training materials, workshop notes, and best practices buried in PDFs and shared drives. When a trainer needs information fast (mid-workshop or while preparing) they either waste time digging through files or just guess.
+{: .box-note}
+
+ **How We Help:**
+We build conversational AI tools that know your entire knowledge base. A trainer doesn’t search; they ask questions naturally, like they would ask a colleague who knows everything about your organization.
+
+> "Do we have guidance on recognizing mental health warning signs in teens?"
+
+The system searches your training materials, protocols, and case studies. It synthesizes a clear, actionable overview with relevant context from your own resources
+
+**It grows with you:**
+As your organization creates new training materials, case studies, or policies, you simply add them to the system. The AI instantly learns the new information and includes it in future answers. No technical knowledge needed. Just upload and it’s live.
+
+![Crepe](/assets/img/rag1.png)
+---
+
+### Digital Role-Play Scenarios (Training Simulators)
+
+**The Challenge:**
+You can’t learn complex social skills just by reading a manual. Youth workers, volunteers, and educators need practice before they step into sensitive situations, but organizing live role-play takes hours and can be awkward.
+{: .box-note}
+
+**How We Help:**
+We build interactive, text-based practice scenarios. These are safe, private digital environments where your team can “rehearse” difficult conversations as many times as they need. We program the system to act as a specific persona, allowing your staff to build confidence without the risk of saying the wrong thing to a real person.
+
+
+**Examples of what we build:**
+* **For Youth Workers:** A scenario to practice conflict resolution with an angry teenager.
+* **For Volunteers:** A simulation to practice intake interviews with vulnerable beneficiaries, focusing on empathy and active listening.
+* **For Educators:** A safe space to practice handling disruptive classroom behavior or sensitive parent-teacher meetings.
+
+## Our Tech Stack
+We believe in privacy and control. We prioritize Open Source solutions and self-hosted environments (running on our own local servers and cloud containers). This means the tools we build for your project belong to you, not a subscription service that might disappear next year.
