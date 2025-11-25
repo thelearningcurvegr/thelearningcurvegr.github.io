@@ -12,6 +12,7 @@ We are the technical arm of TLC! While many talk about the future of AI, we are 
 ---
 
 ## What We Build
+We build practical digital tools that solve real workflow problems. Instead of abstract concepts, we focus on solutions that help trainers and organizations save time, access knowledge instantly, and prepare for challenges effectively.
 
 ### Interactive Knowledge Assistants (RAG)
 **The Challenge:**
