@@ -14,6 +14,7 @@ We are the technical arm of TLC! Our team comes from a background in Software an
 ## Our Tools
 We build practical digital tools that solve real workflow problems. Instead of abstract concepts, we focus on solutions that help trainers and organizations save time, access knowledge instantly, and prepare for challenges effectively.
 
+![RAG](/assets/img/tech/rag0.png)
 ### Interactive Knowledge Assistants (RAG)
 **The Challenge:**
 Your organization has years of training materials, workshop notes, and best practices buried in PDFs and shared drives. When a trainer needs information fast (mid-workshop or while preparing) they either waste time digging through files or just guess.
