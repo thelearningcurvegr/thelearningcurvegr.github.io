@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tech & Innovation Lab
-subtitle: Advanced Engineering for Social Impact.
+subtitle: Advanced Engineering for Social Impact
 # cover-img: /assets/img/image17.jpg
 ---
 
@@ -29,7 +29,7 @@ The system searches your training materials, protocols, and case studies. It syn
 **It grows with you:**
 As your organization creates new training materials, case studies, or policies, you simply add them to the system. The AI instantly learns the new information and includes it in future answers. No technical knowledge needed. Just upload and it’s live.
 
-![Crepe](/assets/img/rag1.png)
+![RAG](/assets/img/tech/rag1.png)
 ---
 
 ### Digital Role-Play Scenarios (Training Simulators)
@@ -41,6 +41,7 @@ You can’t learn complex social skills just by reading a manual. Youth workers,
 **How We Help:**
 We build interactive, text-based practice scenarios. These are safe, private digital environments where your team can “rehearse” difficult conversations as many times as they need. We program the system to act as a specific persona, allowing your staff to build confidence without the risk of saying the wrong thing to a real person.
 
+![Bot](/assets/img/tech/bot1.png)
 
 **Examples of what we build:**
 * **For Youth Workers:** A scenario to practice conflict resolution with an angry teenager.
