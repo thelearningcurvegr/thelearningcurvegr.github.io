@@ -53,6 +53,14 @@ html[data-theme="dark"] .intro-header.big-img .post-heading {
   color: #FFF;
 }
 
+/* All page titles and subtitles color for dark theme */
+html[data-theme="dark"] .intro-header .page-heading h1,
+html[data-theme="dark"] .intro-header .page-heading .page-subheading,
+html[data-theme="dark"] .intro-header .post-heading h1,
+html[data-theme="dark"] .intro-header .post-heading .post-subheading {
+  color: #7ab8ff;
+}
+
 /* 4) Post previews, home-feature and panel-like elements */
 html[data-theme="dark"] .home-feature{
   background: #292929 !important;
