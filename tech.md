@@ -11,7 +11,7 @@ We are the technical arm of TLC! Our team comes from a background in Software an
 
 ---
 
-## What We Build
+## Our Tools
 We build practical digital tools that solve real workflow problems. Instead of abstract concepts, we focus on solutions that help trainers and organizations save time, access knowledge instantly, and prepare for challenges effectively.
 
 ### Interactive Knowledge Assistants (RAG)
@@ -43,11 +43,13 @@ We build interactive, text‑based practice scenarios. These are safe, private d
 
 ![Bot](/assets/img/tech/bot1.png)
 
-**Examples of what we build:**
+#### Scenario Examples:
+Each scenario is customized to your organization’s specific challenges and workflows. Trainees can practice as many times as needed in a judgment-free environment, receiving instant feedback to build confidence and competence.
+
 * **For Youth Workers:** A scenario to practice conflict resolution with an angry teenager.
 * **For Volunteers:** A simulation to practice intake interviews with vulnerable beneficiaries, focusing on empathy and active listening.
 * **For Educators:** A safe space to practice handling disruptive classroom behavior or sensitive parent-teacher meetings.
 * **For Job Seekers**: An interview simulator that challenges candidates with tough questions and gives feedback on their professional communication
 
 ## Our Tech Stack
-We believe in privacy and control. We prioritize Open Source solutions and self-hosted environments (running on our own local servers and cloud containers). This means the tools we build for your project belong to you, not a subscription service that might disappear next year.
+We believe in privacy and control. We prioritize **Open Source** solutions and self-hosted environments (running on our own local servers and cloud containers). This means the tools we build for your project belong to you, not a subscription service that might disappear next year.
