@@ -1,4 +1,5 @@
 @import url("pygment_highlights.css");
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 
 :root {
   /* config file CSS variables */
@@ -13,6 +14,9 @@
   --footer-text-col: #777777;
   --footer-link-col: #404040;
   --footer-hover-col: #0085A1;
+  
+  /* Francois One font for home page title/subtitle */
+  --francois-font: 'Francois One', sans-serif;
 
   /* common CSS variables */
   /* --body-font: 'Lora', 'Times New Roman', serif; */
@@ -717,6 +721,16 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin-top: 0;
   font-size: 3.125rem;
 }
+
+/* All page titles and subtitles with Francois One font */
+.intro-header .page-heading h1,
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading h1,
+.intro-header .post-heading .post-subheading {
+  font-family: var(--francois-font);
+  color: #00137B;
+}
+
 .intro-header .post-heading h1 {
   margin-top: 0;
   font-size: 2.1875rem;
