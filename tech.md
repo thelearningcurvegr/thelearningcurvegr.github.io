@@ -5,9 +5,9 @@ subtitle: Advanced Engineering for Social Impact
 # cover-img: /assets/img/image17.jpg
 ---
 
-We are the technical arm of TLC! While many talk about the future of AI, we are busy building it. Our team comes from a background in AI engineering and cloud infrastructure. We don’t just run seminars; we write code, deploy systems, and build tools that modernize how adult education actually happens.
+We are the technical arm of TLC! Our team comes from a background in Software and AI engineering and cloud infrastructure. We don’t just run seminars; we write code, deploy systems, and build tools that bridge the gap between digital potential and real-world practice.
 
-> We exist to help educators and professionals stop fearing AI and start using it to save time and improve their work.
+> We exist to help educators and professionals move beyond the hype of AI and start using it to amplify their impact.
 
 ---
 
@@ -39,7 +39,7 @@ You can’t learn complex social skills just by reading a manual. Youth workers,
 {: .box-note}
 
 **How We Help:**
-We build interactive, text-based practice scenarios. These are safe, private digital environments where your team can “rehearse” difficult conversations as many times as they need. We program the system to act as a specific persona, allowing your staff to build confidence without the risk of saying the wrong thing to a real person.
+We build interactive, text‑based practice scenarios. These are safe, private digital environments where your team can “rehearse” difficult conversations or interviews as many times as they need. The system plays a realistic persona (for example, a skeptical interviewer or a frustrated teenager), so staff can experiment with different responses and build confidence without the risk of saying the wrong thing to a real person.
 
 ![Bot](/assets/img/tech/bot1.png)
 
@@ -47,6 +47,7 @@ We build interactive, text-based practice scenarios. These are safe, private dig
 * **For Youth Workers:** A scenario to practice conflict resolution with an angry teenager.
 * **For Volunteers:** A simulation to practice intake interviews with vulnerable beneficiaries, focusing on empathy and active listening.
 * **For Educators:** A safe space to practice handling disruptive classroom behavior or sensitive parent-teacher meetings.
+* **For Job Seekers**: An interview simulator that challenges candidates with tough questions and gives feedback on their professional communication
 
 ## Our Tech Stack
 We believe in privacy and control. We prioritize Open Source solutions and self-hosted environments (running on our own local servers and cloud containers). This means the tools we build for your project belong to you, not a subscription service that might disappear next year.
