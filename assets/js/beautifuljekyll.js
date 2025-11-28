@@ -87,6 +87,8 @@ let BeautifulJekyllJS = {
     }
     // Recompute navbar contrast now that theme changed
     BeautifulJekyllJS.initNavbar();
+    // Close mobile menu after theme toggle
+    $('#main-navbar').collapse('hide');
   },
 
   initImgs : function() {
