@@ -51,19 +51,5 @@
         <guid isPermaLink="true">/2025-11-11-Your-Complete-Guide-to-CV-preparation/</guid>
       </item>
     
-      <item>
-        <title>Sample blog post to learn markdown tips</title>
-        
-        <dc:creator><![CDATA[ Bill Smith ]]></dc:creator>
-        
-        <description>
-          There&apos;s lots to learn! - 
-          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown...
-        </description>
-        <pubDate>Fri, 28 Feb 2020 00:00:00 +0200</pubDate>
-        <link>/2020-02-28-sample-markdown/</link>
-        <guid isPermaLink="true">/2020-02-28-sample-markdown/</guid>
-      </item>
-    
   </channel>
 </rss>
